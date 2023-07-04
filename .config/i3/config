@@ -83,35 +83,55 @@ bindsym $sup+6 $fetch_workspace_to_output $ws6
 bindsym $sup+7 $fetch_workspace_to_output $ws7
 bindsym $sup+8 $fetch_workspace_to_output $ws8
 bindsym $sup+9 $fetch_workspace_to_output $ws9
-bindsym $sup+KP_Home $fetch_workspace_to_output $ws1
-bindsym $sup+KP_Up $fetch_workspace_to_output $ws2
-bindsym $sup+KP_Prior $fetch_workspace_to_output $ws3
-bindsym $sup+KP_Left $fetch_workspace_to_output $ws4
-bindsym $sup+KP_Begin $fetch_workspace_to_output $ws5
-bindsym $sup+KP_Right $fetch_workspace_to_output $ws6
-bindsym $sup+KP_End $fetch_workspace_to_output $ws7
-bindsym $sup+KP_Down $fetch_workspace_to_output $ws8
-bindsym $sup+KP_Next $fetch_workspace_to_output $ws9
+
+bindcode $sup+79 $fetch_workspace_to_output $ws1
+bindcode $sup+80 $fetch_workspace_to_output $ws2
+bindcode $sup+81 $fetch_workspace_to_output $ws3
+bindcode $sup+83 $fetch_workspace_to_output $ws4
+bindcode $sup+84 $fetch_workspace_to_output $ws5
+bindcode $sup+85 $fetch_workspace_to_output $ws6
+bindcode $sup+87 $fetch_workspace_to_output $ws7
+bindcode $sup+88 $fetch_workspace_to_output $ws8
+bindcode $sup+89 $fetch_workspace_to_output $ws9
+bindcode $sup+mod2+79 $fetch_workspace_to_output $ws1
+bindcode $sup+mod2+80 $fetch_workspace_to_output $ws2
+bindcode $sup+mod2+81 $fetch_workspace_to_output $ws3
+bindcode $sup+mod2+83 $fetch_workspace_to_output $ws4
+bindcode $sup+mod2+84 $fetch_workspace_to_output $ws5
+bindcode $sup+mod2+85 $fetch_workspace_to_output $ws6
+bindcode $sup+mod2+87 $fetch_workspace_to_output $ws7
+bindcode $sup+mod2+88 $fetch_workspace_to_output $ws8
+bindcode $sup+mod2+89 $fetch_workspace_to_output
 
 # move focused container to workspace
-bindsym $sup+Shift+1 move container to workspace $ws1; $fetch_workspace_to_output $ws1
-bindsym $sup+Shift+2 move container to workspace $ws2; $fetch_workspace_to_output $ws2
-bindsym $sup+Shift+3 move container to workspace $ws3; $fetch_workspace_to_output $ws3
-bindsym $sup+Shift+4 move container to workspace $ws4; $fetch_workspace_to_output $ws4
-bindsym $sup+Shift+5 move container to workspace $ws5; $fetch_workspace_to_output $ws5
-bindsym $sup+Shift+6 move container to workspace $ws6; $fetch_workspace_to_output $ws6
-bindsym $sup+Shift+7 move container to workspace $ws7; $fetch_workspace_to_output $ws7
-bindsym $sup+Shift+8 move container to workspace $ws8; $fetch_workspace_to_output $ws8
-bindsym $sup+Shift+9 move container to workspace $ws9; $fetch_workspace_to_output $ws9
-bindsym $sup+Shift+KP_7 move container to workspace $ws1; $fetch_workspace_to_output $ws1
-bindsym $sup+Shift+KP_8 move container to workspace $ws2; $fetch_workspace_to_output $ws2
-bindsym $sup+Shift+KP_9 move container to workspace $ws3; $fetch_workspace_to_output $ws3
-bindsym $sup+Shift+KP_4 move container to workspace $ws4; $fetch_workspace_to_output $ws4
-bindsym $sup+Shift+KP_5 move container to workspace $ws5; $fetch_workspace_to_output $ws5
-bindsym $sup+Shift+KP_6 move container to workspace $ws6; $fetch_workspace_to_output $ws6
-bindsym $sup+Shift+KP_1 move container to workspace $ws7; $fetch_workspace_to_output $ws7
-bindsym $sup+Shift+KP_2 move container to workspace $ws8; $fetch_workspace_to_output $ws8
-bindsym $sup+Shift+KP_3 move container to workspace $ws9; $fetch_workspace_to_output $ws9
+bindsym $sup+Shift+mod2+1 move container to workspace $ws1; $fetch_workspace_to_output $ws1
+bindsym $sup+Shift+mod2+2 move container to workspace $ws2; $fetch_workspace_to_output $ws2
+bindsym $sup+Shift+mod2+3 move container to workspace $ws3; $fetch_workspace_to_output $ws3
+bindsym $sup+Shift+mod2+4 move container to workspace $ws4; $fetch_workspace_to_output $ws4
+bindsym $sup+Shift+mod2+5 move container to workspace $ws5; $fetch_workspace_to_output $ws5
+bindsym $sup+Shift+mod2+6 move container to workspace $ws6; $fetch_workspace_to_output $ws6
+bindsym $sup+Shift+mod2+7 move container to workspace $ws7; $fetch_workspace_to_output $ws7
+bindsym $sup+Shift+mod2+8 move container to workspace $ws8; $fetch_workspace_to_output $ws8
+bindsym $sup+Shift+mod2+9 move container to workspace $ws9; $fetch_workspace_to_output $ws9
+
+bindcode $sup+Shift+79 move container to workspace $ws1; $fetch_workspace_to_output $ws1
+bindcode $sup+Shift+80 move container to workspace $ws2; $fetch_workspace_to_output $ws2
+bindcode $sup+Shift+81 move container to workspace $ws3; $fetch_workspace_to_output $ws3
+bindcode $sup+Shift+83 move container to workspace $ws4; $fetch_workspace_to_output $ws4
+bindcode $sup+Shift+84 move container to workspace $ws5; $fetch_workspace_to_output $ws5
+bindcode $sup+Shift+85 move container to workspace $ws6; $fetch_workspace_to_output $ws6
+bindcode $sup+Shift+87 move container to workspace $ws7; $fetch_workspace_to_output $ws7
+bindcode $sup+Shift+88 move container to workspace $ws8; $fetch_workspace_to_output $ws8
+bindcode $sup+Shift+89 move container to workspace $ws9; $fetch_workspace_to_output $ws9
+bindcode $sup+Shift+mod2+79 move container to workspace $ws1; $fetch_workspace_to_output $ws1
+bindcode $sup+Shift+mod2+80 move container to workspace $ws2; $fetch_workspace_to_output $ws2
+bindcode $sup+Shift+mod2+81 move container to workspace $ws3; $fetch_workspace_to_output $ws3
+bindcode $sup+Shift+mod2+83 move container to workspace $ws4; $fetch_workspace_to_output $ws4
+bindcode $sup+Shift+mod2+84 move container to workspace $ws5; $fetch_workspace_to_output $ws5
+bindcode $sup+Shift+mod2+85 move container to workspace $ws6; $fetch_workspace_to_output $ws6
+bindcode $sup+Shift+mod2+87 move container to workspace $ws7; $fetch_workspace_to_output $ws7
+bindcode $sup+Shift+mod2+88 move container to workspace $ws8; $fetch_workspace_to_output $ws8
+bindcode $sup+Shift+mod2+89 move container to workspace $ws9; $fetch_workspace_to_output $ws9
 
 bindsym $sup+x move workspace to output right
 
@@ -136,7 +156,7 @@ bindsym $sup+Return exec --no-startup-id i3-dmenu-desktop
 
 #apps
 bindsym $sup+w exec x-www-browser
-bindsym $sup+e exec xdg-open ~
+bindsym $sup+e exec pcmanfm
 bindsym $sup+o exec pavucontrol
 bindsym $sup+c exec speedcrunch
 bindsym $sup+l exec loginctl lock-session
