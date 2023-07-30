@@ -160,4 +160,5 @@ bindsym $sup+e exec pcmanfm
 bindsym $sup+o exec pavucontrol
 bindsym $sup+c exec speedcrunch
 bindsym $sup+l exec loginctl lock-session
+bindsym $sup+Shift+l exec systemctl suspend
 bindsym $sup+Delete exec gnome-system-monitor
