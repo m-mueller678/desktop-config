@@ -155,10 +155,11 @@ bindsym $sup+r exec dmenu_run
 bindsym $sup+Return exec --no-startup-id i3-dmenu-desktop
 
 #apps
-bindsym $sup+w exec x-www-browser
-bindsym $sup+e exec pcmanfm
+bindsym $sup+w exec firefox
+bindsym $sup+e exec dolphin
 bindsym $sup+o exec pavucontrol
 bindsym $sup+c exec speedcrunch
 bindsym $sup+l exec loginctl lock-session
 bindsym $sup+Shift+l exec systemctl suspend
-bindsym $sup+Delete exec gnome-system-monitor
+bindsym $sup+l exec i3lock -c000000 -f
+bindsym $sup+Delete exec plasma-systemmonitor
