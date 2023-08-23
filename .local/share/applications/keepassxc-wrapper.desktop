@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=KXC
+Exec=/home/marcus/script/launch-keepass.sh
+Icon=keepassxc
+Terminal=false
+Type=Application
+Categories=Utility;
