@@ -159,7 +159,6 @@ bindsym $sup+w exec firefox
 bindsym $sup+e exec dolphin
 bindsym $sup+o exec pavucontrol
 bindsym $sup+c exec speedcrunch
-bindsym $sup+l exec loginctl lock-session
 bindsym $sup+Shift+l exec systemctl suspend
 bindsym $sup+l exec i3lock -c000000 -f
 bindsym $sup+Delete exec plasma-systemmonitor
