@@ -7,7 +7,14 @@ set -e -o pipefail
 
 cd ~/keepassxc-storage
 etag=$(aws --profile keepassxc-storage s3api head-object --bucket keepass-sync-test-5736622565ce --key db.tar|jq '.ETag' | sed 's/[^[:alnum:]]//g')
-echo $etag
-aws s3 cp --profile keepassxc-storage s3://keepass-sync-test-5736622565ce/db.tar - | tar -x
-echo $etag>etag
-notify-send "loaded $etag"
+touch etag
+old_etag=$(cat etag)
+if [ "$old_etag" = "$etag" ]; then
+	notify-send "kept $etag"
+	exit
+else
+	echo "loading $etag"
+	aws s3 cp --profile keepassxc-storage s3://keepass-sync-test-5736622565ce/db.tar - | tar -x
+	echo $etag>etag
+	notify-send "loaded $etag"
+fi
