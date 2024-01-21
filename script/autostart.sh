@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 ~/script/set_screens.sh
+setxkbmap -model pc105 -layout us -variant altgr-intl
 lxpolkit &w
 dunst &
 pcmanfm -d --no-desktop &
