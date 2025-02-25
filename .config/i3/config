@@ -90,6 +90,7 @@ bindcode $sup+85 $fetch_workspace_to_output $ws6
 bindcode $sup+87 $fetch_workspace_to_output $ws7
 bindcode $sup+88 $fetch_workspace_to_output $ws8
 bindcode $sup+89 $fetch_workspace_to_output $ws9
+
 bindcode $sup+mod2+79 $fetch_workspace_to_output $ws1
 bindcode $sup+mod2+80 $fetch_workspace_to_output $ws2
 bindcode $sup+mod2+81 $fetch_workspace_to_output $ws3
@@ -98,7 +99,7 @@ bindcode $sup+mod2+84 $fetch_workspace_to_output $ws5
 bindcode $sup+mod2+85 $fetch_workspace_to_output $ws6
 bindcode $sup+mod2+87 $fetch_workspace_to_output $ws7
 bindcode $sup+mod2+88 $fetch_workspace_to_output $ws8
-bindcode $sup+mod2+89 $fetch_workspace_to_output
+bindcode $sup+mod2+89 $fetch_workspace_to_output $ws9
 
 # move focused container to workspace
 bindsym $sup+Shift+mod2+1 move container to workspace $ws1; $fetch_workspace_to_output $ws1
