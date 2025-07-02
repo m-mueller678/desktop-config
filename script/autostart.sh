@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #~/script/set_screens.sh
-#lxpolkit &w
+lxpolkit &
 dunst &
 #xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
 #~/script/background_switch.py &
