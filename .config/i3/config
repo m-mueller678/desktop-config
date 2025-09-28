@@ -154,8 +154,8 @@ bindsym $sup+Return exec --no-startup-id i3-dmenu-desktop
 
 #apps
 bindsym $sup+w exec firefox
-bindsym $sup+e exec pcmanfm-qt
-bindsym $sup+o exec pavucontrol-qt
+bindsym $sup+e exec pcmanfm
+bindsym $sup+o exec pavucontrol
 bindsym $sup+c exec speedcrunch
 bindsym $sup+Shift+l exec systemctl suspend
 bindsym $sup+l exec i3lock -c000000 -f
